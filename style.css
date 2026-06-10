@@ -301,7 +301,7 @@ body {
   justify-content: center;
 }
 .box-of-4 box-01 {
-  width: 300px;
+  width: 200px;
   height: 300px;
 }
 
@@ -352,8 +352,6 @@ body {
 .box-01-small {
   display: flex;
   justify-content: center;
-  max-width: 600px;
-  width: 100%;
   margin-top: 10px;
   justify-content: flex-start;
   font-weight: 400;
@@ -374,4 +372,11 @@ body {
   border-color: 1px solid rgb(255, 31, 31);
   border-radius: 100px;
   margin-bottom: 30px;
+}
+
+.page-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 800px;
 }/*# sourceMappingURL=style.css.map */
